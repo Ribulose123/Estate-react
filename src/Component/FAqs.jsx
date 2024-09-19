@@ -4,8 +4,10 @@ import { FaChevronDown } from "react-icons/fa";
 const FAqs = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const handleToggle = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
+  const handleToggle = () => {
+    setOpenIndex(!openIndex);
+
+    console.log("you toggled");
   };
 
   return (
@@ -17,15 +19,12 @@ const FAqs = () => {
         </div>
 
         <div className="item-faq">
-          <div className="faq-items">
+          <div className="faq-container">
             <div className="faq-question">
               <h4>How do i serach for properties on your wbsite?</h4>
-              <FaChevronDown
-                className={`cheveron faqBtn ${openIndex === 0 ? "show" : ""}`}
-                onClick={() => handleToggle(0)}
-              />
+              <FaChevronDown className="cheveron" onClick={handleToggle} />
             </div>
-            <div className={openIndex === 0 ? "faq-answer show" : "faq-answer"}>
+            <div className={`faq-answer === ${openIndex ? "show" : ""}`}>
               <p>
                 To search for properties, simply go to the home page nd use the
                 search button. Specify if you want to rent or buy. Choose your
@@ -33,12 +32,13 @@ const FAqs = () => {
               </p>
             </div>
           </div>
-          <div className="faq-items">
+
+          <div className="faq-container">
             <div className="faq-question">
               <h4>How do i serach for properties on your wbsite?</h4>
-              <FaChevronDown className="cheveron faqBtn" />
+              <FaChevronDown className="cheveron" onClick={handleToggle} />
             </div>
-            <div className="faq-answer">
+            <div className={`faq-answer === ${openIndex ? "show" : ""}`}>
               <p>
                 To search for properties, simply go to the home page nd use the
                 search button. Specify if you want to rent or buy. Choose your
@@ -46,12 +46,12 @@ const FAqs = () => {
               </p>
             </div>
           </div>
-          <div className="faq-items">
+          <div className="faq-container">
             <div className="faq-question">
               <h4>What is the difference between buying aand renting?</h4>
-              <FaChevronDown className="cheveron faqBtn" />
+              <FaChevronDown className="cheveron" onClick={handleToggle} />
             </div>
-            <div className="faq-answer">
+            <div className={`faq-answer === ${openIndex ? "show" : ""}`}>
               <p>
                 Buying a property offers long-term stability, equity building
                 and control over modifications, but involves higher upfront
@@ -61,12 +61,12 @@ const FAqs = () => {
               </p>
             </div>
           </div>
-          <div className="faq-items">
+          <div className="faq-container">
             <div className="faq-question">
               <h4>How can i shedule a property viewing?</h4>
-              <FaChevronDown className="cheveron faqBtn" />
+              <FaChevronDown className="cheveron" onClick={handleToggle} />
             </div>
-            <div className="faq-answer">
+            <div className={`faq-answer === ${openIndex ? "show" : ""}`}>
               <p>
                 Contact Gateway real estate agent through our phone line or
                 email ddress, expressing your interest in the property and

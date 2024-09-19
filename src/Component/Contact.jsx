@@ -31,7 +31,7 @@ const Contact = () => {
         </div>
 
         <div className="address-content">
-          <img src="/public/assets/balcony.avif" alt="" />
+          <img src={location[locationIndex].image} alt="" />
 
           <div id="location-details" className="location-details">
             <div

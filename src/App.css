@@ -331,7 +331,7 @@ select option {
   max-width: 1000px;
   overflow: hidden;
   scroll-behavior: smooth;
-  margin-left: 3rem;
+  margin-left: -6rem;
 }
 
 
@@ -387,7 +387,7 @@ select option {
   cursor: pointer;
   font-size: 40px;
   display: flex;
-  padding-top: -2rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -437,7 +437,8 @@ select option {
   margin-top: 2rem;
 }
 
-.faq-items {
+
+.faq-container {
   margin-left: 2rem;
   color: white;
   border-bottom: 0.6px solid rgba(100, 100, 100, 0.959);
@@ -445,13 +446,16 @@ select option {
   padding-bottom: 2rem;
 }
 
-.faq-items .faq-question {
+
+
+.faq-question {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
   font-family: sans-serif;
 }
+
 
 .faq-question h4 {
   font-size: 18px;
@@ -461,20 +465,21 @@ select option {
   transition: transform 0.5s ease-in;
 }
 
+
 .faq-question {
   font-size: 18px;
 }
 
 .faq-answer {
   margin-bottom: 5px;
-  display: none;
   transition: max-height 4s ease-in;
-  max-height: 50px;
+  max-height: 0px;
+  overflow: hidden;
 }
 
 .show .faq-answer {
   max-height: 100px;
-  display: block;
+  margin-bottom: 24px;
 }
 
 .show .cheveron {
@@ -575,11 +580,8 @@ select option {
 }
 
 
-/* 
 
-
-
-.indicator .active-btn::before {
+/* .indicator .active-btn::before {
   content: '';
   position: absolute;
   width: 10px;

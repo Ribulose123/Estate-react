@@ -1,111 +1,114 @@
 {
-    "location":[
-        {
-            "name" : "Lagos",
-            "phone": "Phone number",
-            "number": "08099789021",
-            "addressInfo": "Address",
-            "details": "Plot 1435, Adetokumbo Ademola street, Victoria Island, Lagos",
-            "acquisition": "Acquisition: Gateway",
-            "info": "Chioma Apple",
-            "info1": "9074564321",
-            "email": "romeo@gmail.com",
-            "leasingInfo": "Leasing: Gateway",
-            "leasingContact": "Tomiwa Geopary",
-            "leasingEmail": "yesmat@yahoo.com"
-        },
-        {
-            "name" : "Abuja",
-            "phone": "Phone Number",
-            "number": "0904123798",
-            "addressInfo": "Address",
-            "details": "5, Glover Road, Ofure Abuja",
-            "acquisition": "Acquisition: Gateway",
-            "info": "Chioma Apple",
-            "info1": "9074564321",
-            "email": "romeo@gmail.com",
-            "leasingInfo": "Leasing: Gateway",
-            "leasingContact": "Tomiwa Geopary",
-            "leasingEmail": "yesmat@yahoo.com"
-        },
-        {
-            "name" : "Benin",
-            "phone": "Phone Number",
-            "number": "0904123798",
-            "addressInfo": "Address",
-            "details": "5, Glover Road, Ofure Abuja",
-            "acquisition": "Acquisition: Gateway",
-            "info": "Chioma Apple",
-            "info1": "9074564321",
-            "email": "romeo@gmail.com",
-            "leasingInfo": "Leasing: Gateway",
-            "leasingContact": "Tomiwa Geopary",
-            "leasingEmail": "yesmat@yahoo.com"
-        }
-    ],
-    "testimony":[
-        {
-            "image": "../assets/man.avif",
-            "description" : "Working with Gateway Homes was an absolute pleasure. They helped us find our dream home in no time. Their team was prefesssionl, attentive and truly cared about our needs. As a first-time home buyer, i had many questions and concerns. They walked me through every step of the process with patience and experties. I couldnt have asked for a better experineces! Highly recommend.",
-            "cilent": "John D.",
-            "job": "Project Manger" 
-        },
-        {
-            "image": "../assets/woman.avif",
-            "description" : "I was relocation for work and had a tight schedule to find a new place. Gateway Homes not only found me a beautiful apartment butalso handled the paperwork quickly. They exceeded by my expectations. I've worked with serval real estate agents in the past, but none have matched their dedication and professionalism. They went above and beyond to ensure i got the best deal on my investment property",
-            "cilent": "Jesscia T.",
-            "job": "Travell blogger" 
-        },
+  "location": [
+    {
+      "name": "Lagos",
+      "phone": "Phone number",
+      "number": "08099789021",
+      "addressInfo": "Address",
+      "details": "Plot 1435, Adetokumbo Ademola street, Victoria Island, Lagos",
+      "acquisition": "Acquisition: Gateway",
+      "info": "Chioma Apple",
+      "info1": "9074564321",
+      "email": "romeo@gmail.com",
+      "leasingInfo": "Leasing: Gateway",
+      "leasingContact": "Tomiwa Geopary",
+      "leasingEmail": "yesmat@yahoo.com",
+      "image": "/public/assets/balcony.avif"
+    },
+    {
+      "name": "Abuja",
+      "phone": "Phone Number",
+      "number": "0904123798",
+      "addressInfo": "Address",
+      "details": "5, Glover Road, Ofure Abuja",
+      "acquisition": "Acquisition: Gateway",
+      "info": "Chioma Apple",
+      "info1": "9074564321",
+      "email": "romeo@gmail.com",
+      "leasingInfo": "Leasing: Gateway",
+      "leasingContact": "Tomiwa Geopary",
+      "leasingEmail": "yesmat@yahoo.com",
+      "image": "/public/assets/office2.jpg"
+    },
+    {
+      "name": "Benin",
+      "phone": "Phone Number",
+      "number": "0904123798",
+      "addressInfo": "Address",
+      "details": "5, Glover Road, Ofure Abuja",
+      "acquisition": "Acquisition: Gateway",
+      "info": "Chioma Apple",
+      "info1": "9074564321",
+      "email": "romeo@gmail.com",
+      "leasingInfo": "Leasing: Gateway",
+      "leasingContact": "Tomiwa Geopary",
+      "leasingEmail": "yesmat@yahoo.com",
+      "image": "/public/assets/office1.jpeg"
+    }
+  ],
+  "testimony": [
+    {
+      "image": "../assets/man.avif",
+      "description": "Working with Gateway Homes was an absolute pleasure. They helped us find our dream home in no time. Their team was prefesssionl, attentive and truly cared about our needs. As a first-time home buyer, i had many questions and concerns. They walked me through every step of the process with patience and experties. I couldnt have asked for a better experineces! Highly recommend.",
+      "cilent": "John D.",
+      "job": "Project Manger"
+    },
+    {
+      "image": "../assets/woman.avif",
+      "description": "I was relocation for work and had a tight schedule to find a new place. Gateway Homes not only found me a beautiful apartment butalso handled the paperwork quickly. They exceeded by my expectations. I've worked with serval real estate agents in the past, but none have matched their dedication and professionalism. They went above and beyond to ensure i got the best deal on my investment property",
+      "cilent": "Jesscia T.",
+      "job": "Travell blogger"
+    },
 
-        {
-            "image": "../assets/blac.avif",
-            "description" : "Selling our home was a breeze thanks to Gateway Homes. we were worried about selling our hous in a slow market, but they made it happen qucikly and a great price. Their marketing Strategies were top-notch, we recevied multiple offers within the first week. Their experties and friendly approach made us feel confidebt every step of the way. We highly recommend them to anyone looking to sell their property",
-            "cilent": "Mike & Laure S.",
-            "job": "Doctors" 
-        },
-        {
-            "image": "../assets/couple.avif",
-            "description" : "We were hestant about buying a fixer-upper, but gateway Homes saw the potential and helped us through he renovation process. The transformation is incridible, and we now have our dream home!. The team was responsive, attentive and dedicated to meeting our needs. Thans to them, we found a beautiful home that exceeded our expectations.",
-            "cilent": "David & Linda Kp.",
-            "job": "Doctors" 
-        }
-    ],
+    {
+      "image": "../assets/blac.avif",
+      "description": "Selling our home was a breeze thanks to Gateway Homes. we were worried about selling our hous in a slow market, but they made it happen qucikly and a great price. Their marketing Strategies were top-notch, we recevied multiple offers within the first week. Their experties and friendly approach made us feel confidebt every step of the way. We highly recommend them to anyone looking to sell their property",
+      "cilent": "Mike & Laure S.",
+      "job": "Doctors"
+    },
+    {
+      "image": "../assets/couple.avif",
+      "description": "We were hestant about buying a fixer-upper, but gateway Homes saw the potential and helped us through he renovation process. The transformation is incridible, and we now have our dream home!. The team was responsive, attentive and dedicated to meeting our needs. Thans to them, we found a beautiful home that exceeded our expectations.",
+      "cilent": "David & Linda Kp.",
+      "job": "Doctors"
+    }
+  ],
 
-    "properties":[
-        {
-            "image": "../assets/housing.avif",
-            "apartment": "Apartment",
-            "address": "George Residences",
-            "pin": "16, Lugard avenue ikoyi, lagos",
-            "more": "see more"
-        },
-        {
-            "image": "../assets/housing.avif",
-            "apartment": "Apartment",
-            "address": "George Residences",
-            "pin": "16, Lugard avenue ikoyi, lagos",
-            "more": "see more"
-        },
-        {
-            "image": "../assets/housing.avif",
-            "apartment": "Apartment",
-            "address": "George Residences",
-            "pin": "16, Lugard avenue ikoyi, lagos",
-            "more": "see more"
-        },
-        {
-            "image": "../assets/housing.avif",
-            "apartment": "Apartment",
-            "address": "George Residences",
-            "pin": "16, Lugard avenue ikoyi, lagos",
-            "more": "see more"
-        }, 
-        {
-            "image": "../assets/housing.avif",
-            "apartment": "Apartment",
-            "address": "George Residences",
-            "pin": "16, Lugard avenue ikoyi, lagos",
-            "more": "see more"
-        }
-    ]
+  "properties": [
+    {
+      "image": "../assets/housing.avif",
+      "apartment": "Apartment",
+      "address": "George Residences",
+      "pin": "16, Lugard avenue ikoyi, lagos",
+      "more": "see more"
+    },
+    {
+      "image": "../assets/housing.avif",
+      "apartment": "Apartment",
+      "address": "George Residences",
+      "pin": "16, Lugard avenue ikoyi, lagos",
+      "more": "see more"
+    },
+    {
+      "image": "../assets/housing.avif",
+      "apartment": "Apartment",
+      "address": "George Residences",
+      "pin": "16, Lugard avenue ikoyi, lagos",
+      "more": "see more"
+    },
+    {
+      "image": "../assets/housing.avif",
+      "apartment": "Apartment",
+      "address": "George Residences",
+      "pin": "16, Lugard avenue ikoyi, lagos",
+      "more": "see more"
+    },
+    {
+      "image": "../assets/housing.avif",
+      "apartment": "Apartment",
+      "address": "George Residences",
+      "pin": "16, Lugard avenue ikoyi, lagos",
+      "more": "see more"
+    }
+  ]
 }

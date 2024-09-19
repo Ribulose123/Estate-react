@@ -6,11 +6,10 @@ const ImageSlider = () => {
   const carouselRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
   const [prevPageX, setPrevPageX] = useState(0);
-  const [prevScrollLeft, setPrevScrollLeft] = useState(0); // State to track previous scroll position
-  const [firstImgWidth, setFirstImgWidth] = useState(0); // State for the width of the first image
-  const [currentUnit, setCurrentUnit] = useState(1); // Current unit being shown
+  const [prevScrollLeft, setPrevScrollLeft] = useState(0);
+  const [firstImgWidth, setFirstImgWidth] = useState(0);
+  const [currentUnit, setCurrentUnit] = useState(1);
 
-  // Set first image width dynamically once the component is mounted
   useEffect(() => {
     if (carouselRef.current) {
       const firstImg = carouselRef.current.querySelectorAll(".corusel")[0];
